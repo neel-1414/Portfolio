@@ -206,12 +206,19 @@ margin-top: 300px;
 }
     .skills{
         margin: 0;
-        color: white;
-        font-family: 'Arial', sans-serif;
-        font-size: 20px;
          padding: 30px;
+                         font-size: 20px;
+
     }
     .skills h2{
         text-align: center;
         margin-top: 10%;
+        color: white;
+
+    }
+    
+    #icon {
+        width: 50px;
+        height: 50px;
+        object-fit:contain;
     }
