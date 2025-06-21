@@ -200,7 +200,7 @@ margin-top: 350px;
     }
     .box{
         color: white;
-        border: 1px solid white;
+     border:1px solid white;
         border-radius: 10px;
         padding: 20px;
         margin: 20px;
@@ -393,4 +393,26 @@ margin-top: 350px;
   .section4 {
     padding: 15px;
   }
+}
+
+
+.popup-msg {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1000;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.popup-msg.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-10px);
 }
